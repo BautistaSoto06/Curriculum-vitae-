@@ -1,0 +1,12 @@
+.head {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+}
+
+.title {
+    font-size: 34px;
+    color: #000000;
+    text-decoration: underline;
+    margin: 0;
+}
