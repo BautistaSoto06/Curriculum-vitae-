@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Desarrollador de Software</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<nav id="nav">
+  <div class="nav-logo">./dev_portfolio</div>
+  <div class="nav-links">
+    <a href="#skills">Skills</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#about">Sobre mí</a>
+    <a href="#contact">Contacto</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+
+  <div class="hero-badge">▶ Disponible para proyectos freelance</div>
+
+  <h1 class="hero-name">Juan Bautista Soto<br></h1>
+
+  <p class="hero-role">
+    Estudiante <em>Ing. en Sistemas</em> · Desarrollador de Software a medida
+  </p>
+
+  <p class="hero-desc">
+    Creo software que resuelve problemas reales. Especializado en aplicaciones de gestión, sistemas de ventas e inversiones. Apasionado por el código limpio y las soluciones eficientes.
+  </p>
+
+  <div class="hero-actions">
+    <a href="#projects" class="btn btn-primary">Ver proyectos →</a>
+    <a href="#contact" class="btn btn-secondary">Contratar</a>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num">2+</div>
+      <div class="stat-label">Proyectos</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">20</div>
+      <div class="stat-label">Años</div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills-section" id="skills">
+  <div class="section-label">01 — Habilidades</div>
+  <h2 class="section-title reveal">Stack técnico</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <span class="skill-icon">⬡</span>
+      <div class="skill-name">Backend & Lógica</div>
+      <div class="skill-tags">
+        <span class="tag tag-green">Python</span>
+        <span class="tag tag-green">Java</span>
+        <span class="tag tag-green">Node.js</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">◈</span>
+      <div class="skill-name">Frontend & UI</div>
+      <div class="skill-tags">
+        <span class="tag tag-blue">HTML/CSS</span>
+        <span class="tag tag-blue">JavaScript</span>
+        <span class="tag tag-blue">React</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">◉</span>
+      <div class="skill-name">Bases de Datos</div>
+      <div class="skill-tags">
+        <span class="tag tag-purple">Supabase</span>
+        <span class="tag tag-purple">SQLite</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">◎</span>
+      <div class="skill-name">Herramientas</div>
+      <div class="skill-tags">
+        <span class="tag tag-amber">Git</span>
+        <span class="tag tag-amber">GitHub</span>
+        <span class="tag tag-amber">VS Code</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label">02 — Proyectos</div>
+  <h2 class="section-title reveal">Lo que construí</h2>
+
+  <div class="projects-grid">
+    <!-- Proyecto 1 -->
+    <div class="project-card reveal">
+      <div class="project-num">PROJECT_01</div>
+      <h3 class="project-title">Software de Ventas</h3>
+      <p class="project-desc">
+        Sistema completo de gestión comercial diseñado para optimizar el proceso de ventas. Incluye control de inventario, facturación, registro de clientes y reportes en tiempo real.
+      </p>
+      <div class="project-features">
+        <span class="feature">Control de inventario en tiempo real</span>
+        <span class="feature">Facturación y emisión de comprobantes</span>
+        <span class="feature">Registro y seguimiento de clientes</span>
+        <span class="feature">Dashboard con métricas de ventas</span>
+        <span class="feature">Reportes exportables</span>
+      </div>
+      <div class="project-footer">
+        <div class="project-tags">
+          <span class="tag tag-green">JavaScript</span>
+          <span class="tag tag-purple">Supabase</span>
+        </div>
+        <a href="#" class="project-link">ver más →</a>
+      </div>
+    </div>
+
+    <!-- Proyecto 2 -->
+    <div class="project-card reveal">
+      <div class="project-num">PROJECT_02</div>
+      <h3 class="project-title">Software de Inversiones</h3>
+      <p class="project-desc">
+        Plataforma de análisis y gestión de carteras de inversión. Permite registrar activos, hacer seguimiento de rendimientos y visualizar el comportamiento de las inversiones a lo largo del tiempo.
+      </p>
+      <div class="project-features">
+        <span class="feature">Registro de activos y portafolio</span>
+        <span class="feature">Cálculo automático de rendimientos</span>
+        <span class="feature">Historial de transacciones</span>
+        <span class="feature">Gráficos de evolución temporal</span>
+        <span class="feature">Alertas y notificaciones</span>
+      </div>
+      <div class="project-footer">
+        <div class="project-tags">
+          <span class="tag tag-green">JavaScript</span>
+          <span class="tag tag-amber">Finanzas</span>
+          <span class="tag tag-purple">Supabase</span>
+        </div>
+        <a href="#" class="project-link">ver más →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label">03 — Sobre mí</div>
+
+  <div class="about-inner">
+    <div class="about-visual reveal">
+      <div class="about-frame">
+        <div class="about-corner tl">ID_001</div>
+        <div class="about-avatar">👨‍💻</div>
+        <div class="about-corner br">ARG_20</div>
+      </div>
+    </div>
+
+    <div class="about-text reveal">
+      <h2 class="section-title">Quién<br>soy.</h2>
+      <p class="about-bio">
+        Soy <strong>estudiante de Ingeniería en Sistemas</strong> con 20 años y una pasión genuina por el desarrollo de software. Me enfoco en crear soluciones que sean funcionales, eficientes y con impacto real.
+      </p>
+      <p class="about-bio">
+        Busco mis primeras experiencias como <strong>freelancer</strong>, ofreciendo desarrollo de aplicaciones de escritorio y web, con especial énfasis en sistemas de gestión empresarial.
+      </p>
+
+      <div class="about-detail">
+        <span class="about-detail-label">Ubicación</span>
+        <span class="about-detail-val">Corrientes, Argentina</span>
+      </div>
+      <div class="about-detail">
+        <span class="about-detail-label">Carrera</span>
+        <span class="about-detail-val">Ing. en Sistemas</span>
+      </div>
+      <div class="about-detail">
+        <span class="about-detail-label">Disponible</span>
+        <span class="about-detail-val" style="color:var(--accent)">✓ Proyectos freelance</span>
+      </div>
+      <div class="about-detail">
+        <span class="about-detail-label">Idiomas</span>
+        <span class="about-detail-val">Español (nativo)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="section-label">04 — Contacto</div>
+  <h2 class="contact-title reveal">
+    ¿Tenés un<br>
+    <span>proyecto?</span>
+  </h2>
+  <p class="contact-sub reveal">
+    Estoy disponible para trabajar en proyectos freelance. Hablemos de lo que necesitás construir.
+  </p>
+  <div class="contact-links reveal">
+    <a href="mailto: bautistasoto918@email.com" class="contact-link primary">✉ Escribime</a>
+    <a href="https://github.com/BautistaSoto06/" target="_blank" class="contact-link">◉ GitHub</a>
+    <a href="https://www.linkedin.com/in/bautista-soto-5ba005306/" target="_blank" class="contact-link">in LinkedIn</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-copy">© 2026 · Bautista Soto · Portfolio</div>
+  <div class="footer-status">
+    <div class="dot"></div>
+    Disponible para proyectos
+  </div>
+  
+  <script src="script.js" defer></script>
+</footer>  
+</body>
+</html>
